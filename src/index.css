@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chevron-open {
+    transition: transform 0.3s ease;
+    transform: rotate(360deg);
+}
+
+.chevron-closed {
+    transition: transform 0.3s ease;
+    transform: rotate(270deg);
+    margin-left: auto;
+    /* Position ChevronDown to the right */
+}
